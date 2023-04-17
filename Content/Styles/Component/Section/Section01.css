@@ -1,0 +1,76 @@
+/* Common xs1, xs2 */
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .section-01 {
+    padding-top: 263px;
+  }
+  .section-01 .c-wrapper h3 {
+    margin-bottom: 25px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ebebeb;
+    transition: color 0.5s;
+    letter-spacing: -0.39px;
+    font-size: 48px;
+    font-weight: 900;
+    cursor: pointer;
+    z-index: 10;
+    transition: transform 0.3s, color 0.3s;
+  }
+  .section-01 .c-wrapper h3 span {
+    font-size: 10px;
+    position: absolute;
+    left: -30px;
+    top: 8px;
+    font-weight: 600;
+    font-family: "Mont";
+    color: transparent;
+    -webkit-text-stroke: 1px #ebebeb;
+    line-height: 1;
+  }
+  .section-01 .c-wrapper h3:hover {
+    transform: translateX(26px);
+    color: #ffffff;
+  }
+  .section-01 .c-wrapper .title-1:hover ~ .images-container .img-1 {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  .section-01 .c-wrapper .title-2:hover ~ .images-container .img-2 {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  .section-01 .c-wrapper .title-3:hover ~ .images-container .img-3 {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  .section-01 .c-wrapper .title-4:hover ~ .images-container .img-4 {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  .section-01 .c-wrapper .title-5:hover ~ .images-container .img-5 {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  .section-01 .c-wrapper .title-6:hover ~ .images-container .img-6 {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  .section-01 .c-wrapper .images-container {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  .section-01 .c-wrapper .images-container img {
+    position: fixed;
+    width: 550px;
+    height: 550px;
+    left: calc(50% - 263px);
+    top: calc(50% - 260px);
+    overflow: hidden;
+    -o-object-fit: cover;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.5s;
+    transform: scale(1.2);
+  }
+}/*# sourceMappingURL=Section01.css.map */
